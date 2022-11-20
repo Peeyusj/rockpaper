@@ -1,0 +1,162 @@
+header{
+    font-family:'Press Start 2P', cursive;
+    color: yellow;
+    background-color: black;
+    padding: 3px 12px;
+    text-align: center;
+}
+main{
+    background-color: #222831;
+    color: aliceblue;
+    height: 70vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resultdisplay{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p#layersign{
+    
+margin: 14px 30px;
+font-size: 4.5rem;
+
+}
+#computersign{
+    
+    margin: 14px 30px;
+    font-size: 4.5rem;
+  
+}
+.scoredisplay{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+     font-size: 4.5rem ;
+    font-family:'Press Start 2P', cursive;
+}
+/* .scoredisplay span{
+    font-size: 6.8rem;} */
+
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 4.5rem;
+    font-family:'Press Start 2P', cursive;
+}
+#pscore{
+    margin: 14px 30px;
+    font-size: 2.5rem;
+}
+#cscore{
+    margin: 17px 58px;
+    font-size: 2.5rem;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 4.5rem;
+    font-family:'Press Start 2P', cursive;
+}
+
+.phead{
+    margin: 24px 16px;
+}
+.chead{
+    margin: 24px 16px;
+}
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 5.2rem;
+}
+#rock:hover{
+    cursor: pointer;
+    font-size: 6.2rem;
+
+}
+#paper:hover{
+    cursor: pointer;
+    font-size: 6.2rem;
+
+}
+#scissors:hover{
+    cursor: pointer;
+    font-size: 6.2rem;
+
+}
+.sign{
+    background-color: #393e46;
+    margin: 3px 10px;
+    border-radius: 12px;
+}
+#resultdec{
+    font-family: 2.5rem;
+    font-family:'Press Start 2P', cursive;
+}
+footer{
+    display: flex;
+    background-color: #222831;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 24vh;
+
+}
+#modalcontainer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    pointer-events: none; 
+    
+    
+    
+}
+#modalcontainer.show{
+    opacity:1;
+    transition: opacity 0.8s ease-in;
+    pointer-events:auto;
+    /* background-color: blue; */
+}
+.modal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid red;
+    border-radius: 8px;
+    background-color: #608b7a;
+    color: black;
+    width: 40%;
+    padding: 75px 15px;
+    font-family:'Press Start 2P', cursive;
+
+}
+
+#restartbtn
+{
+    padding: 4px 7px;
+    margin: 25px;
+    background-color: #393e46;
+    border-radius: 8px;
+    color: aqua;
+}
+#restartbtn:hover{
+    cursor: pointer;
+}

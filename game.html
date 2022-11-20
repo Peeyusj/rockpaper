@@ -1,0 +1,84 @@
+-<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html>
+    <head>  
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="gstyle.css">
+        <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    </head>
+
+    <body>
+    <header>
+        <h2>Welcome TO The game</h2>
+    </header>
+    <main>
+        <div class="resultdisplay">
+            <h3>Choose your weapon</h3>
+            <p id="resultdec">First to score 5 points wins the game</p>
+        </div>
+        <div class="scoredisplay">
+           <div>
+           <div id="playersign">❔</div>
+          </div>
+            <div id="computersign">❔</div>
+        </div>
+        <div class="score">
+          <div id="pscore">0</div>
+          <div id="cscore">0</div>
+        </div>
+        <div class="head">
+          <div class="phead">your <br> score</div>
+          <div class="chead">computer <br>  score</div>
+        </div>
+        <div class="button">
+                <div id="rock"class="sign">✊</div>
+            <div id="paper"class="sign">✋</div>
+        <div id="scissors"class="sign">✌</div>
+
+        </div>
+
+    </main>
+    <footer>
+        <p>
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+            Piyush
+          </p>
+          <a href="" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
+    </footer>
+     <!-- <div class="modal" id="endgameModal">
+      <p class="modal-title" id="endgameMsg"></p>
+      <button class="btn btn-restart" id="restartBtn">Play again</button>
+    </div>
+    <div class="overlay" id="overlay"></div>  -->
+    <div id="modalcontainer" >
+      <div class="modal">
+        <div id="finalalert">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptas architecto neque.</div>
+        <button id="restartbtn">Restart</button>
+      </div>
+
+    </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
